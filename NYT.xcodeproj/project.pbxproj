@@ -17,6 +17,7 @@
 		5D6676BD1FD968A1006C6226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6676BC1FD968A1006C6226 /* main.m */; };
 		5D6676C71FD968A2006C6226 /* NYTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6676C61FD968A2006C6226 /* NYTTests.m */; };
 		5D6676D21FD968A2006C6226 /* NYTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6676D11FD968A2006C6226 /* NYTUITests.m */; };
+		5D6676EF1FD9B25B006C6226 /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6676EE1FD9B25B006C6226 /* ArticleTableViewCell.m */; };
 		B27FF62AF4A8EE7D3FAFDC9C /* libPods-NYT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 078C6639708563421F613C62 /* libPods-NYT.a */; };
 		DB94881B9D5B6FCA66FFB905 /* libPods-NYTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2544D207F07AC0AA25FDFA7 /* libPods-NYTUITests.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,8 @@
 		5D6676CD1FD968A2006C6226 /* NYTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6676D11FD968A2006C6226 /* NYTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYTUITests.m; sourceTree = "<group>"; };
 		5D6676D31FD968A2006C6226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6676ED1FD9B25B006C6226 /* ArticleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		5D6676EE1FD9B25B006C6226 /* ArticleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
 		7A70698AC95037EA07220486 /* Pods-NYTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTTests/Pods-NYTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2544D207F07AC0AA25FDFA7 /* libPods-NYTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92AE5C6031328B4A99E6719 /* Pods-NYT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYT/Pods-NYT.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				5D6676B81FD968A1006C6226 /* LaunchScreen.storyboard */,
 				5D6676BB1FD968A1006C6226 /* Info.plist */,
 				5D6676BC1FD968A1006C6226 /* main.m */,
+				5D6676ED1FD9B25B006C6226 /* ArticleTableViewCell.h */,
+				5D6676EE1FD9B25B006C6226 /* ArticleTableViewCell.m */,
 			);
 			path = NYT;
 			sourceTree = "<group>";
@@ -469,6 +474,7 @@
 				5D6676AF1FD968A1006C6226 /* MasterViewController.m in Sources */,
 				5D6676AC1FD968A1006C6226 /* AppDelegate.m in Sources */,
 				5D6676BD1FD968A1006C6226 /* main.m in Sources */,
+				5D6676EF1FD9B25B006C6226 /* ArticleTableViewCell.m in Sources */,
 				5D6676B21FD968A1006C6226 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
