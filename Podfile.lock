@@ -1,3 +1,44 @@
-PODFILE CHECKSUM: 8c918287d8f7d8e03e4615295abf5738e92e3c92
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ISO8601 (0.6.0)
+  - JSONModel (1.7.0)
+  - SwaggerClientNYT (1.0.0):
+    - AFNetworking (~> 3)
+    - ISO8601 (~> 0.6)
+    - JSONModel (~> 1.2)
+
+DEPENDENCIES:
+  - SwaggerClientNYT (from `https://github.com/istbagi/NYTPublicAPI.git`)
+
+EXTERNAL SOURCES:
+  SwaggerClientNYT:
+    :git: https://github.com/istbagi/NYTPublicAPI.git
+
+CHECKOUT OPTIONS:
+  SwaggerClientNYT:
+    :commit: 2638462fea11f94443734ba350d02e2063b3bcf5
+    :git: https://github.com/istbagi/NYTPublicAPI.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  SwaggerClientNYT: c41c98fa0f3a1c22358fb6b975832553fe2fdf59
+
+PODFILE CHECKSUM: 9da5325a27d60d999430dc063d9c6d13e3e72d30
 
 COCOAPODS: 1.4.0.beta.2

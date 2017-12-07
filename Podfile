@@ -6,6 +6,7 @@ target 'NYT' do
   # use_frameworks!
 
   # Pods for NYT
+  pod 'SwaggerClientNYT', :git => 'https://github.com/istbagi/NYTPublicAPI.git'
 
   target 'NYTTests' do
     inherit! :search_paths

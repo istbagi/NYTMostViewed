@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class SWGArticle;
+
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
+@property (strong, nonatomic) SWGArticle *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end
