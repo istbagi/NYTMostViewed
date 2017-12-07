@@ -12,6 +12,7 @@
 #import <SwaggerClientNYT/SWGDefaultConfiguration.h>
 #import <SwaggerClientNYT/SWGDefaultApi.h>
 #import <SwaggerClientNYT/SWGArticle.h>
+#import <SwaggerClientNYT/SWGLogger.h>
 
 @interface MasterViewController ()
 
@@ -28,11 +29,11 @@
 
     SWGDefaultConfiguration *configuration = [SWGDefaultConfiguration sharedConfig];
     [configuration setApiKey:@"9d850e567eab4fd59155686c651d3d77" forApiKeyIdentifier:@"api-key"];
-
+    configuration.logger = [[SWGLogger alloc] init];
     SWGDefaultApi *defaultApi = [SWGDefaultApi new];
 
     __weak typeof(self) weakSelf = self;
-    [defaultApi gETMostviewedSectionTimePeriodJsonWithSection:@"Arts" timePeriod:@"7" completionHandler:^(SWGInlineResponse200 *output, NSError *error) {
+    [defaultApi gETMostviewedSectionTimePeriodJsonWithSection:@"all-sections" timePeriod:@"7" completionHandler:^(SWGInlineResponse200 *output, NSError *error) {
 
         if (!error)
         {
